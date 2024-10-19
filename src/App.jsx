@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>AQUI MI CONTADOR DE 5 EN 5</h1>
+      <h1>ESTE ES MI NUMERO ALEATORIO QUE PUEDO MOSTRAR</h1>
       <Button/>
     </>
   )

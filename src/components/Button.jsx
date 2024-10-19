@@ -6,7 +6,9 @@ export const Button = props => {
     const[count, setCount] = useState(0);
 
     function handlerButton() {
-        setCount(count + 5);
+        setCount(count + 1);
+        const randomValue = Math.floor(Math.random() * 100) + 1;
+        alert(randomValue);
     }
     return(
         <button onClick={ handlerButton}>
